@@ -1,0 +1,166 @@
+/* Tag Selectors Section */
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 0.01rem);
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+
+hr {
+    width: 320px;
+    height: 1px;
+    border: none;
+    background-color: hsl(0, 0%, 89%);
+    opacity: 50%;
+    position: relative;
+    bottom: 60px;
+}
+
+table {
+    display: inline-block;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: large;
+    font-weight: 700;
+}
+
+h3 {
+
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: small;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    position: relative;
+    bottom: 10px;
+}
+
+
+p {
+    color: hsl(227, 10%, 46%);
+    font-size: 10px;
+    font-weight: 400;
+    position: relative;
+    bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Class Selectors Section */
+
+.background {
+    width: 320px;
+}
+
+
+.middle-container {
+    background-color: white;
+    max-width: 320px;
+    height: 340px;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.bio-text {
+    position: relative;
+    bottom: 60px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 80px;
+}
+
+.image-background {
+    width: 320px;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+}
+
+.picture-container {
+    background-color: white;
+}
+
+
+
+.profile-pic {
+    width: 80px;
+    border-color: white;
+    border-style:solid;
+    border-width: 5px;
+    position: relative;
+    bottom: 53px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.age {
+    color: hsl(227, 10%, 46%);
+}
+
+
+.followers {
+    position: relative;
+    left: 40px;
+}
+
+.likes {
+    position: relative;
+    right: 3px;
+    display: grid;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.likes1 {
+    position: relative;
+    bottom: 15px;
+}
+
+.photos {
+    position: relative;
+    right: 43px;
+}
+
+/* Balls Section */
+
+.bg-top {
+    position: absolute;
+    top: -100%;
+    left: -20%;
+    z-index: -1;
+}
+
+.bg-bottom {
+    position: absolute;
+    bottom: -100%;
+    right: -20%;
+    z-index: -1;
+}
